@@ -1,1 +1,6 @@
-
+.app {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    background-color: #fffaf3;
+}

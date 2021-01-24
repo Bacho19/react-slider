@@ -1,0 +1,41 @@
+.item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 700px;
+}
+
+.item.prevSlide {
+    transform: translateX(-100%);
+}
+
+.item.nextSlide {
+    transform: translateX(100%);
+}
+
+.photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0 0 7px #000000;
+    margin-bottom: 20px;
+}
+
+.name {
+    font-size: 42px;
+    font-weight: bold;
+    color: brown;
+}
+
+.title {
+    font-size: 24px;
+    color: darkgray;
+}
+
+.description {
+    font-size: 20px;
+}
